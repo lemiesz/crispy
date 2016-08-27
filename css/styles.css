@@ -1,3 +1,32 @@
-.container_main {
-    background-image: url("background.jpg")
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+#whois {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+    font-family: Courier New, Courier, monospace;
+    font-size: 45px;
+    font-style: bold;
+    color: white;
+}
+
+#whois_container {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+#date {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-style: bold;
+    color: white;
+
 }
